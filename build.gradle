@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'technophil.me'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.sf.biweekly:biweekly:0.6.2'
+    compile "com.opencsv:opencsv:4.0"
+}
